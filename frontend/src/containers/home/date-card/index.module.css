@@ -3,22 +3,26 @@
     font-weight: bold;
 }
 
-.amountWrapper {
+.currentDate {
+    font-size: 30px;
+    margin: 0;
+}
+
+.dateWrapper {
     display: flex;
     align-items: center;
     flex-direction: column;
     font-weight: bold;
 }
 
-.amountPositive {
+.dateGreen {
     color: lightgreen;
 }
 
-.amountNegative {
+.dateRed {
     color: lightcoral;
 }
 
-.balance {
-    font-size: 75px;
-    margin: 0;
+.dateAmber {
+    color: orange
 }

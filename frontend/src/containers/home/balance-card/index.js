@@ -9,7 +9,7 @@ const BalanceCard = () => {
 
   return (
     <CardComponent width="27.5%" maxHeight="25vh">
-      <p className={styles.title}>Balance</p>
+      <p className={styles.title}>Remaining Monthly Balance</p>
       <div className={`${styles.amountWrapper} ${isNegative ? styles.amountNegative : styles.amountPositive}`}>
         <p className={styles.balance}>{TEST_DATA}</p>
       </div>
