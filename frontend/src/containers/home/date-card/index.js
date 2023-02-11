@@ -1,11 +1,8 @@
 import CardComponent from "../../../components/card/Card";
-import {memo} from "react";
+import { memo } from "react";
 import styles from "./index.module.css"
 
-
 const DateCard = () => {
-
-
     //TODO eventually pass a call to get balance in and then have switch to evaluate current
     //balance against current day
     const getStyleForDateBalance = () => {
@@ -15,7 +12,6 @@ const DateCard = () => {
     }
 
     const today = new Date().toLocaleDateString("en-UK");
-    const currentDay = new Date().getDay() + 10;
 
     return (
         <CardComponent width="17.5%" maxHeight="15vh">
