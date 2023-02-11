@@ -1,0 +1,28 @@
+.title {
+    margin-top: 0.5rem;
+    font-weight: bold;
+}
+
+.currentDate {
+    font-size: 30px;
+    margin: 0;
+}
+
+.dateWrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+.dateGreen {
+    color: lightgreen;
+}
+
+.dateRed {
+    color: lightcoral;
+}
+
+.dateAmber {
+    color: orange
+}

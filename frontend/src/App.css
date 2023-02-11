@@ -27,11 +27,19 @@
   background-color: #29292b;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+.cardRow {
+  display: flex;
+  align-items: flex-start;
+  flex-flow: row;
+  gap: 52%;
+}
+
+
+
 
 @keyframes App-logo-spin {
   from {
