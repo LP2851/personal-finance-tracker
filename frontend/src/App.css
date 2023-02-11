@@ -23,3 +23,11 @@
   flex-flow: row;
   gap: 52%;
 }
+
+.rightAlign {
+  position: absolute;
+  right: 0px;
+  width: 300px;
+
+}
+

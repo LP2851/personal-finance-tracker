@@ -1,0 +1,16 @@
+.title {
+    margin-top: 0.5rem;
+    font-weight: bold;
+    width: 200px;
+
+}
+
+.goalsWrapper {
+    display: flow;
+    align-items: center;
+    flex-direction: row;
+    font-weight: bold;
+}
+
+
+
