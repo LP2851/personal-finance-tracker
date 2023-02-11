@@ -1,0 +1,24 @@
+.title {
+    margin-top: 0.5rem;
+    font-weight: bold;
+}
+
+.amountWrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+.amountPositive {
+    color: lightgreen;
+}
+
+.amountNegative {
+    color: lightcoral;
+}
+
+.balance {
+    font-size: xx-large;
+    margin: 0;
+}
