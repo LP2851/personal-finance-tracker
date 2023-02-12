@@ -7,13 +7,7 @@ const CategoryCard = () => {
     return (
         <CardComponent width="27.5%" maxHeight="30vh">
             <p className={styles.title}>Spending Categories</p>
-            <Collapsible label='Click Here'>
-                <ul>
-                    <li>Profile</li>
-                    <li>Dashboard</li>
-                    <li>Logout</li>
-                </ul>
-            </Collapsible>
+            <Collapsible/>
         </CardComponent>
     );
 }
