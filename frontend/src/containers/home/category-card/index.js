@@ -5,10 +5,12 @@ import Collapsible from "../../../components/collapsible/Collapsible";
 
 const CategoryCard = () => {
     return (
-        <CardComponent width="27.5%" maxHeight="30vh">
-            <p className={styles.title}>Spending Categories</p>
-            <Collapsible/>
-        </CardComponent>
+        <div className={styles.categoryWrapper}>
+            <CardComponent width="27.5%" maxHeight="35vh">
+                <p className={styles.title}>Spending Categories</p>
+                <Collapsible/>
+            </CardComponent>
+        </div>
     );
 }
 

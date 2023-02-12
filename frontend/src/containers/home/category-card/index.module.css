@@ -2,3 +2,9 @@
     margin-top: 0.5rem;
     font-weight: bold;
 }
+
+.categoryWrapper {
+    display: inline-list-item;
+    flex-direction: column;
+    flex: 1 1 auto;
+}

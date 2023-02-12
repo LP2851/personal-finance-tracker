@@ -32,11 +32,15 @@ const Collapsible = () => {
 
 
 const data = [{
-    Category: "Food",
-    explanation: "sex money hookers drugs"},
+    Category: "Cat 1",
+    explanation: "Cat 1"},
     {
-        Category: "Drugs",
-        explanation: "la musica de harry frost"
+        Category: "Cat 2",
+        explanation: "Cat 2"},
+    {
+        Category: "Cat 3",
+        explanation: "Cat 3"
+
 }]
 
 
