@@ -25,9 +25,10 @@
 }
 
 .rightAlign {
-  position: absolute;
-  right: 0px;
+  position: fixed;
+  right: 0;
   width: 300px;
+  margin: 20px;
 
 }
 

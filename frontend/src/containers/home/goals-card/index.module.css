@@ -2,7 +2,11 @@
     margin-top: 0.5rem;
     font-weight: bold;
     width: 200px;
+}
 
+.listContent {
+    font-size: 30px;
+    margin: -15px;
 }
 
 .goalsWrapper {

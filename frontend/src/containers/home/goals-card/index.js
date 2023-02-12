@@ -4,12 +4,17 @@ import styles from "./index.module.css"
 
 const GoalsCard = () => {
 
+//user will be able to choose custom goals that will appear here
+//need to move that card up so that its directly underneath the date card and aligned
+//make the title centre aligned
     return (
-        <CardComponent width="14%" maxHeight="36vh">
+        <CardComponent width="90%" maxHeight="45vh">
             <p className={styles.title}>Your goals this month: <p></p>
-                <p>
+                <p className={styles.listContent}>
                     <ul>
-                        <li>Red</li>
+                        <li>goal 1</li>
+                        <li>goal 2</li>
+                        <li>save 500 squids</li>
                     </ul>
                 </p>
             </p>
