@@ -8,7 +8,7 @@ const GoalsCard = () => {
 //need to move that card up so that its directly underneath the date card and aligned
 //make the title centre aligned
     return (
-        <CardComponent width="90%" maxHeight="45vh">
+        <CardComponent extraStyles={styles.goalsWrapper} width="30%" maxHeight="45vh">
             <p className={styles.title}>Your goals this month: <p></p>
                 <p className={styles.listContent}>
                     <ul>
@@ -18,8 +18,6 @@ const GoalsCard = () => {
                     </ul>
                 </p>
             </p>
-            <div className={`${styles.goalsWrapper}`}>
-            </div>
         </CardComponent>
     );
 }

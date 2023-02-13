@@ -29,7 +29,7 @@ const CardComponent = (props) => {
   const isDefaultCard = props.isDefaultCard ?? false;
 
   return (
-    <div className="cardWrapper" style={{width: props.width}}>
+    <div className={`cardWrapper ${props.extraStyles}`} style={{width: props.width}}>
       <div className={styles.card} style={{height: `${props.maxHeight ?? ""}`}} >
         {isDefaultCard && <DefaultCardContent cardSettings={props.cardSettings} width={props.width}/>}
         {!isDefaultCard &&

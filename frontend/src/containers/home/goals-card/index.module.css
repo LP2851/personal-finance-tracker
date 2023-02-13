@@ -10,10 +10,9 @@
 }
 
 .goalsWrapper {
-    display: flow;
-    align-items: center;
-    flex-direction: row;
-    font-weight: bold;
+    position: relative;
+    top: -10vh;
+    left: -2.5vw;
 }
 
 
