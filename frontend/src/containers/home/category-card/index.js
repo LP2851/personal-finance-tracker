@@ -1,7 +1,8 @@
 import CardComponent from "../../../components/card/Card";
 import {memo} from "react";
-import styles from "./index.module.css"
 import Collapsible from "../../../components/collapsible/Collapsible";
+import styles from "./index.module.css"
+
 
 const CategoryCard = () => {
     return (
