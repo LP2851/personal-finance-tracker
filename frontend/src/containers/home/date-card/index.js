@@ -14,6 +14,7 @@ const DateCard = () => {
     }
 
     const today = new Date().toLocaleDateString("en-UK");
+    const currentDay = new Date().getDay() + 10;
 
     return (
         <CardComponent width="17.5%" maxHeight="15vh">
