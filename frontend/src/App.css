@@ -23,3 +23,12 @@
   flex-flow: row;
   gap: 52%;
 }
+
+.rightAlign {
+  position: fixed;
+  right: 0;
+  width: 300px;
+  margin: 20px;
+
+}
+

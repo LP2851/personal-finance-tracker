@@ -1,6 +1,7 @@
 import './App.css';
 import BalanceCard from "./containers/home/balance-card";
 import DateCard from "./containers/home/date-card";
+import GoalsCard from "./containers/home/goals-card";
 import CategoryCard from "./containers/home/category-card";
 
 function App() {
@@ -9,13 +10,13 @@ function App() {
       <header className="App-header">
         <div className="main">
           <div className="cardRow">
-            <BalanceCard/>
-            <DateCard/>
-          </div>
+            <BalanceCard />
+            <DateCard />
+          </div>    
           <div className="cardRow">
             <CategoryCard/>
+            <GoalsCard />
           </div>
-          <div/>
         </div>
       </header>
     </div>
