@@ -26,3 +26,19 @@
 .dateAmber {
     color: orange
 }
+
+.header {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.5rem;
+}
+
+.header > .icon {
+    margin: 0.5rem;
+    color: #ffd666;
+}
+
+.header > .title {
+    font-weight: bold;
+    margin: 0;
+}
