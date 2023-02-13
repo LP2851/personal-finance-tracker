@@ -37,3 +37,7 @@
     max-height: 9999px;
     transition: all 0.1s cubic-bezier(1, 0, 1, 0);
 }
+
+.title > span {
+    font-weight: bold;
+}
