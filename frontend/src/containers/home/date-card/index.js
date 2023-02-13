@@ -1,5 +1,7 @@
 import CardComponent from "../../../components/card/Card";
 import {memo} from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCalendarAlt } from '@fortawesome/free-solid-svg-icons'
 import styles from "./index.module.css"
 
 
@@ -19,7 +21,12 @@ const DateCard = () => {
 
     return (
         <CardComponent width="17.5%" maxHeight="15vh">
-            <p className={styles.title}>Today is....</p>
+          <div className={styles.header}>
+            <FontAwesomeIcon className={styles.icon} icon={faCalendarAlt} />
+            <p className={styles.title}>
+              Today is...
+            </p>
+          </div>
             <div className={`${styles.dateWrapper}`}>
                 <p className={`${styles.currentDate} ${ getStyleForDateBalance()}`}>{today}</p>
             </div>
