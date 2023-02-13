@@ -1,24 +1,35 @@
-.title {
-    margin-top: 0.5rem;
-    font-weight: bold;
-}
-
 .amountWrapper {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    font-weight: bold;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bold;
 }
 
 .amountPositive {
-    color: lightgreen;
+  color: lightgreen;
 }
 
 .amountNegative {
-    color: lightcoral;
+  color: lightcoral;
 }
 
 .balance {
-    font-size: 75px;
-    margin: 0;
+  font-size: 75px;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0.5rem;
+}
+
+.header > .icon {
+  margin: 0.5rem;
+  color: #ffd666;
+}
+
+.header > .title {
+  font-weight: bold;
+  margin: 0;
 }
