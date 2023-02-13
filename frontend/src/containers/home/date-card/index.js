@@ -1,5 +1,5 @@
 import CardComponent from "../../../components/card/Card";
-import { memo } from "react";
+import {memo} from "react";
 import styles from "./index.module.css"
 
 const DateCard = () => {
@@ -12,6 +12,7 @@ const DateCard = () => {
     }
 
     const today = new Date().toLocaleDateString("en-UK");
+    const currentDay = new Date().getDay() + 10;
 
     return (
         <CardComponent width="17.5%" maxHeight="15vh">

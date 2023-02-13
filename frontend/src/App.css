@@ -2,6 +2,20 @@
   text-align: left;
 }
 
+.App-logo {
+  height:2.5vmin;
+  pointer-events: none;
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
 .main {
   display: block;
   height: 100%;
@@ -23,3 +37,16 @@
   flex-flow: row;
   gap: 52%;
 }
+
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
