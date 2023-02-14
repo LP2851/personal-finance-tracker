@@ -1,4 +1,26 @@
 .title {
-    margin-top: 0.5rem;
+    margin-top: 1rem;
     font-weight: bold;
+}
+
+.categoryWrapper {
+    display: inline-list-item;
+    flex-direction: column;
+    flex: 1 1 auto;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.5rem;
+}
+
+.header > .icon {
+    margin: 0.5rem;
+    color: #ffd666;
+}
+
+.header > .title {
+    font-weight: bold;
+    margin: 0;
 }
